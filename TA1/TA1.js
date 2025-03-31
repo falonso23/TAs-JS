@@ -1,7 +1,9 @@
 function repeatString(text, reps) {
+	let toReturn = ""
 	for(let i = 0; i < reps; i++) {
-		console.log(text);
+		toReturn += text;
 	}
+	console.log(toReturn)
 }
 
 repeatString("Hello World", 162);
