@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<script src="./TA19.js"></script>
+		<title>TA 19 - JS</title>
+		<style>
+			.error {
+				color: red;
+				font-size: 10px;
+				margin: 0;
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="javascript:submit()">
+			<label for="name">Nombre:</label><br>
+			<input type="text" id="name" placeholder="Juan Perez"><br>
+			<p class="error" id="nameError">Nombre no puede estar vacio</p>
+			<label for="email">Email:</label><br>
+			<input type="email" id="email" placeholder="jperez@emai.com"><br>
+			<p class="error" id="emailError">Email no es valido</p>
+			<label for="password">Password:</label><br>
+			<input type="password" id="password" placeholder="****"><br>
+			<p class="error" id="passError">Password debe tener 8 caracteres o mas</p>
+			<input type="submit" value="Submit">
+		</form>
+	</body>
+</html>
